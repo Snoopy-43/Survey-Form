@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+    </div>
+        <form>
+        <div class="header">
+        <label>First Name</label><br><br>
+        <input type="Name" name="Name" placeholder="Enter your First name" class="Box"><br><br>
+        <label>Middle Name</label><br><br>
+        <input type="Name" name="Name" placeholder="Enter your Middle name" class="Box"><br><br>
+        <label>Last Name</label><br><br>
+        <input type="Name" name="Name" placeholder="Enter your Last name" class="Box"><br><br>
+        <label>E-mail</label><br><br>
+        <input type="email" name="mail" placeholder="Enter your mail ID" class="Box"><br><br>
+        <label>Date of Birth</label><br><br>
+        <input type="Date" name="Birth date" placeholder="Enter your birth " class="Box"><br><br>
+        <label>Age</label><br><br>
+        <input type="number" name="Age" placeholder="Enter your age" class="Box"><br><br>
+        <label>Which option describe best your current role</label><br><br>
+    
+        <div class="options">
+        <select>
+            <option>Select your Role</option>
+            <option value="Student">Student</option>
+            <option value="Part Time Job">Part Time Job</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Intern">Intern</option>
+            <option value="prefer Not to Say">Prefer Not to say</option>
+        </select><br><br>
+        </div>
+
+
+        <div class="options2">
+            <label>Where did you here about our website CodeAlpha ?</label><br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbspLinkdin<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbspWebsite<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbspCollege<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbspIndeed<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbspBy yourself<br><br>
+            <label>What is your feature about CodeAlpha ?</label><br><br>
+        <select>
+            <option>Select your Favourite</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Open Source">open Source</option>
+            <option value="Community">Community</option>
+            <option value="prefer Not to Say">Prefer Not to say</option><br><br>
+        </select><br><br>
+        </div> 
+        <div class="options3">
+            <label>What would you like you improve in our internship program ?</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspFront-end Projects</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspBack-end Projects</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspChallenges</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspOpen Source Community</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspTime Duration</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspWiki</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbspVideos</label><br><br>
+        </div>
+        <div class="suggest">
+            <label>Any Comments and Suggestions</label><br><br>
+            <textarea placeholder="Write your suggestions here....."></textarea><br><br>
+             <button><h3>Submit</h3></button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
