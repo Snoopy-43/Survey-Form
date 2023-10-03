@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(survey.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 85px;
+    font-size: larger;
+    color: white;
+}
+#header{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.582);
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: auto;
+    padding-bottom: 60px;
+} 
+form .Box{
+    width: 95%;
+    height: 3em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 3px;
+
+}
+.options select{
+    width: 95%;
+    height: 3em;
+    position: relative;
+    border-radius: 3px;
+    bottom: 10px;
+}
+.options2 select{
+    width: 95%;
+    height: 3em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 3px;
+    bottom: 10px;
+}
+.options3{
+    margin-top: 10px;
+}
+.suggest textarea{
+    width: 98%;
+    height: 130px;
+    position: relative;
+    bottom: 20px;
+    margin-top: 15px;
+
+}
+button{
+    width: 96%;
+    height: 3em;
+    position: relative;
+    top: 10px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Submit button:hover{
+    background-color: rgb(1, 77, 1);
+}
+textarea::placeholder{
+    font-size: large;
+    top: 10px;
+    position: relative;
+    left: 5px;
+    width: 75%;
+}
+input::placeholder{
+    font-size: 1.2em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+@media screen and(max-width:650px) {
+ 
+       form{
+        width: 100%;
+        margin: auto;
+       }
+    
+} 
